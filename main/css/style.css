@@ -1,0 +1,55 @@
+/*--------------------------------------*/
+/*-- BASIC SETUP --*/
+/*--------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-display: "Lato", "Arial", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------*/
+/*-- HEADER --*/
+/*--------------------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.main-nav {
+  margin-top: 20px;
+}
+
+.main-nav li {
+  float: right;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
